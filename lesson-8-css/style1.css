@@ -1,0 +1,39 @@
+p {
+    font-size: 30px;
+}
+.class1 {
+    color: orange;
+}
+.class2 {
+    color: red;
+}
+.class3 {
+    color: blue;
+}
+.class4 {
+    background-color: green;
+    text-align: center;
+}
+.class5 {
+    font-weight: bold;
+    text-align: center;
+}
+.class6 {
+    font-weight: bold;
+}
+.class7 {
+    color: gray;
+}
+.class8 {
+    text-align: right;
+}
+.class9 {
+    background-color: green;
+    color: white;
+    font-style: italic;
+}
+.class10 {
+    color: red;
+    font-weight: bold;
+    font-size: 100px;
+}
