@@ -1,0 +1,41 @@
+/* === Разметка основного меню === */
+.menu ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+   }
+   .menu_li > li {
+    float: left;
+    margin:0;
+    padding:0;
+    position:relative;
+   }
+   .menu_li li a {
+    display:block;
+    margin:0;
+    padding:10px 15px;
+    text-decoration: none;
+   }
+
+   /* === Оформление меню === */
+.menu_colors {
+    background-color: white;
+   }
+   .menu_colors .menu_li > li > a {
+    color: purple;
+   } 
+   .menu_colors .menu_li .active_link a{
+    background-color: purple;
+    color: white;
+   }
+#links_border {
+    padding: 10px;
+    border-radius: 5px; 
+    margin-right: 5px;
+    }
+.grey-border {
+    border: 1px solid grey;
+    }
+.purple-border {
+    border: 1px solid purple;
+    }

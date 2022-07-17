@@ -1,0 +1,15 @@
+td:nth-child(2n+1) {
+    background-color: lightyellow;
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+#color_lb {
+    background-color: lightblue;
+}
+
+#no_color {
+    background-color: transparent;
+}
