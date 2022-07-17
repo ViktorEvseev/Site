@@ -29,14 +29,13 @@
     color: white;
    }
 #links_border {
-    border: 1px solid grey;
     padding: 10px;
     border-radius: 5px; 
     margin-right: 5px;
 }
-#active_link_border {
+.grey-border {
+    border: 1px solid grey;
+}
+.purple-border {
     border: 1px solid purple;
-    padding: 10px;
-    border-radius: 5px;
-    margin-right: 5px;
 }
