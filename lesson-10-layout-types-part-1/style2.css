@@ -1,0 +1,35 @@
+table {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+
+.chess tr:nth-child(odd) th:nth-child(odd) {
+    background: black;
+}
+
+.chess tr:nth-child(even) th:nth-child(even) {
+    background: black;
+}
+
+th {
+    border: 1px solid black;
+}
+
+tr :first-of-type {
+    background-color: lightgreen !important;
+}
+
+tr :last-of-type {
+    background-color: lightgreen !important;
+}
+
+.green-grz {
+    background: lightgreen !important;
+    height: 10px !important; 
+}
+.green-vrt {
+    background: lightgreen !important;
+    width: 10px !important;
+}

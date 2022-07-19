@@ -1,0 +1,18 @@
+.menu a {
+    color: green; /* Цвет ссылок */
+    display: inline-block; /* Строчно-блочный элемент */
+    border-left: 2px solid #B62025; /* Параметры рамки слева */
+    padding: 5px 10px; /* Поля вокруг ссылок */
+   }
+   
+   .menu a:first-child {
+    border-left: none; 
+   }
+
+   a:hover {
+    color: red;
+   }
+
+   a:focus {
+    color: gray;
+   }
